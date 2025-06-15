@@ -1,0 +1,35 @@
+# 编译输出目录
+build/
+bin/
+lib/
+
+# CMake 生成的文件
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# 编译中间文件
+*.o
+*.o.d
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# 日志文件
+*.log
+
+# 编辑器临时文件
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# 可执行文件
+hello
+main

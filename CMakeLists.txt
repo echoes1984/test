@@ -3,4 +3,5 @@ project(HelloMaster)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(hello.exe src/hello.cc)
+add_executable(hello src/hello.cc)
+target_link_libraries(hello ${TBB_Libraries})

@@ -221,6 +221,12 @@ HelloMaster_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 HelloMaster_SOURCE_DIR:STATIC=/home/test
 
+//No help, variable specified on the command line.
+TBB_INCLUDE_DIRS:UNINITIALIZED=/usr/include/tbb
+
+//No help, variable specified on the command line.
+TBB_Libraries:UNINITIALIZED=/lib64/libtbb.so
+
 
 ########################
 # INTERNAL cache entries
